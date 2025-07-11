@@ -1909,7 +1909,6 @@ button[data-selected=true] .C7l2fq {
     --header-explain-hover-light: #4f5a66;
     --header-explain-focus-light: var(--green-color-light);
     --header-artist: var(--link-color);
-    --app-no-print: #f5f5f5;
     --drumnotation-bg-odd-light: #f0f0f0;
     --drumnotation-bg-even-light: #f7f7f7;
     --drumnotation-titel-light: #434d57;
@@ -27110,19 +27109,6 @@ input,select,textarea {
 }
 
 .By1np {
-    &:after,&:before {
-        background: var(--app-no-print);
-        content: "Please use the website's Print button to print this page.";
-        font-size: 30px;
-        font-weight: 700;
-        height: 30000px;
-        padding-top: 3em;
-        position: fixed;
-        text-align: center;
-        width: 100%;
-        z-index: 1000000
-    }
-
     &:before {
         bottom: 110%
     }
