@@ -5404,8 +5404,6 @@ a {
 .D0y2s5 {
     margin: 30px auto;
     width: 50px;
-    @media print {
-        display:none}
 }
 
 .B41py {
@@ -5417,8 +5415,6 @@ a {
         margin: auto
     }
 
-    @media print {
-        display:none}
 }
 
 .B4kc {
@@ -6883,8 +6879,6 @@ a {
     justify-content: center;
     margin-left: auto;
     z-index: var(--zIndexAdminPanel);
-    @media print {
-        display:none}
 }
 
 .Cpjqz {
@@ -7002,8 +6996,6 @@ a {
 .iea5 {
     position: fixed;
     z-index: var(--zIndexAdminPanel);
-    @media print {
-        display:none}
 
     @media (height < 480px) and (width < 940px) and (orientation: landscape),(width < 480px) and (height < 940px) and (orientation:portrait) {
         display:none
@@ -7043,8 +7035,6 @@ a {
     user-select: none;
     width: 32px;
     z-index: var(--zIndexControls);
-    @media print {
-        display:none}
 }
 
 .ie1yt {
@@ -7192,12 +7182,6 @@ a {
     font-size: 13px;
     font-weight: var(--system-font-weight-light);
     margin-right: 12px
-}
-
-@media print {
-    .ie1y2 {
-        display: none
-    }
 }
 
 .iezq circle {
@@ -7976,8 +7960,6 @@ a {
     top: 0;
     width: 100%;
     z-index: var(--zIndexSidebar);
-    @media print {
-        display:none}
 }
 
 .I118x {
@@ -8344,8 +8326,6 @@ a {
         top: 0;
         width: 100%;
         z-index: var(--zIndexSidebar);
-        @media print {
-            display:none}
     }
 
     .I140 {
@@ -8635,8 +8615,6 @@ a {
     transition: background .2s ease-in-out;
     width: 21px;
     z-index: 2;
-    @media print {
-        display:none}
 
     &:hover {
         background: var(--hint-button-hover)
@@ -10094,9 +10072,6 @@ a {
     @media (height >= 480px) and (orientation: landscape),(height >= 940px) and (orientation:portrait),(width >= 480px) and (orientation:portrait),(width >= 940px) and (orientation:landscape) {
         max-width:300px;
         right:230px}
-
-    @media print {
-        display:none}
 }
 
 .B9vl {
@@ -11960,12 +11935,6 @@ a {
     width: 300px
 }
 
-@media print {
-    .D52ez {
-        display: none
-    }
-}
-
 .D51nq {
     border-radius: 4px;
     color: #fff;
@@ -12582,8 +12551,6 @@ a {
     overflow-y: hidden;
     padding: 20px 15px 0;
     width: 100%;
-    @media print {
-        display:none}
 }
 
 .ln27z {
@@ -13932,11 +13899,6 @@ a {
     width: fit-content
 }
 
-@media print {
-    .B6717z {
-        display: none
-    }
-}
 
 @media (height < 480px) and (width < 940px) and (orientation: landscape) {
     .B6714x {
@@ -14537,8 +14499,6 @@ a {
     position: fixed;
     width: 100%;
     z-index: var(--zIndexControls);
-    @media print {
-        display:none}
 }
 
 .Ctons {
@@ -16172,8 +16132,6 @@ a {
     text-align: center;
     width: 356px;
     z-index: var(--z-index-youtube-desktop);
-    @media print {
-        display:none!important}
 
     &.D5adg {
         --full-height: var(--inner-height,100vh);
@@ -16594,8 +16552,6 @@ a {
         display:inline-block
     }
 
-    @media print {
-        display:none!important}
 }
 
 .C611xo {
@@ -16621,8 +16577,6 @@ a {
     position: relative;
     vertical-align: middle;
     z-index: var(--zIndexControlsBelow);
-    @media print {
-        display:none}
 
     &:hover {
         & .C611xo {
@@ -16648,8 +16602,6 @@ a {
 
 .C61287 {
     margin-top: 5px;
-    @media print {
-        display:none}
 }
 
 .C61az {
@@ -16666,8 +16618,6 @@ a {
     left: 5px;
     position: relative;
     top: -10px;
-    @media print {
-        display:none}
 }
 
 .C611uq {
@@ -16680,8 +16630,6 @@ a {
 
 .C612rd {
     white-space: nowrap;
-    @media print {
-        display:none}
 }
 
 .C612w9 {
@@ -16699,8 +16647,6 @@ a {
     margin-bottom: 8px;
     margin-top: 15px;
     row-gap: 10px;
-    @media print {
-        display:none}
 }
 
 .C6133p {
@@ -17231,8 +17177,6 @@ a {
     max-height: 100%;
     visibility: hidden;
     z-index: var(--zIndexTabCursor);
-    @media print {
-        display:none}
 }
 
 #tablature[data-print=on] .Cpk2dh,.Cpkfk {
@@ -17762,8 +17706,6 @@ a {
     fill: var(--propagate-surface);
     animation: fadeOut .15s ease-in-out forwards;
     opacity: 0;
-    @media print {
-        display:none}
 }
 
 .Cpu18s {
@@ -19552,9 +19494,6 @@ section[data-tab-size] .Cpu18s {
         }
     }
 
-    @media print {
-        display:none}
-
     & button {
         color: var(--text);
         font-weight: var(--system-font-weight-normal,inherit)
@@ -19725,8 +19664,6 @@ section[data-tab-size] .Cpu18s {
     user-select: none;
     width: 32px;
     z-index: 71;
-    @media print {
-        display:none}
 }
 
 .Cy52of:focus {
@@ -19766,8 +19703,6 @@ section[data-tab-size] .Cpu18s {
     user-select: none;
     width: 32px;
     z-index: var(--zIndexControls);
-    @media print {
-        display:none}
 }
 
 .Bcr19p {
@@ -19839,8 +19774,6 @@ section[data-tab-size] .Cpu18s {
     user-select: none;
     width: 32px;
     z-index: 71;
-    @media print {
-        display:none}
 }
 
 .xj3s {
@@ -19923,9 +19856,6 @@ section[data-tab-size] .Cpu18s {
     & .Fwsy {
         fill: var(--header-explain-hover)
     }
-
-    @media print {
-        display:none}
 
     &:hover {
         & .Fwaf {
@@ -20039,8 +19969,6 @@ section[data-tab-size] .Cpu18s {
     display: flex;
     font-weight: var(--system-font-weight-bold);
     text-transform: none;
-    @media print {
-        display:none!important}
 
     @media (height < 480px) and (width < 940px) and (orientation: landscape),(width < 480px) and (height < 940px) and (orientation:portrait) {
         margin-left:10px
@@ -22288,8 +22216,6 @@ section[data-tab-size] .Cpu18s {
         bottom:var(--mobile-controls-height)
     }
 
-    @media print {
-        display:none}
 }
 
 .Cektn {
@@ -22606,12 +22532,6 @@ section[data-tab-size] .Cpu18s {
 #root[data-playing=on] .Cky2p2 {
     animation: none;
     opacity: 0
-}
-
-@media print {
-    .Ckywx {
-        display: none
-    }
 }
 
 #root[data-playing=on] .Cm21wh {
@@ -23150,12 +23070,6 @@ section[data-tab-size] .Cpu18s {
     text-transform: uppercase
 }
 
-@media print {
-    .tf1p8 {
-        display: none
-    }
-}
-
 @media (prefers-contrast:more) {
     .tfrb {
         border: 1px solid var(--contrast-theme)
@@ -23451,12 +23365,6 @@ section[data-tab-size] .Cpu18s {
     height: 49px;
     justify-content: center;
     width: 100%
-}
-
-@media print {
-    .B9a2zn {
-        display: none
-    }
 }
 
 @media (height < 480px) and (width < 940px) and (orientation: landscape),(width < 480px) and (height < 940px) and (orientation:portrait),(width < 650px) {
@@ -24591,12 +24499,6 @@ audio {
     }
 }
 
-@media print {
-    .B7uxe {
-        display: none
-    }
-}
-
 @media (prefers-contrast:more) {
     .B7uxe {
         border: 1px solid var(--contrast-theme)
@@ -25574,8 +25476,6 @@ audio {
     position: absolute;
     width: 24px;
     z-index: var(--zIndexDotsButton);
-    @media print {
-        display:none}
 
     &:hover {
         & .Cx82zf {
@@ -25654,8 +25554,6 @@ audio {
     position: absolute;
     width: 24px;
     z-index: var(--zIndexDotsButton);
-    @media print {
-        display:none}
 
     &:hover {
         & .Ckn2o1 {
@@ -25946,16 +25844,11 @@ audio {
         fill: var(--tab-measure-autoswitch);
         transform: translateX(-.1px)
     }
-
-    @media print {
-        display:none}
 }
 
 .D5bid {
     stroke: none;
     fill: var(--highlight-surface);
-    @media print {
-        display:none}
 }
 
 .C7o2f5 {
@@ -25963,8 +25856,6 @@ audio {
     fill: var(--propagate-surface);
     animation: fadeInAndOut 1.3s ease-in-out forwards;
     opacity: 0;
-    @media print {
-        display:none}
 }
 
 @keyframes fadeInAndOut {
@@ -25990,12 +25881,6 @@ audio {
     cursor: pointer;
     -webkit-user-select: none;
     user-select: none
-}
-
-@media print {
-    .k0yk {
-        display: none
-    }
 }
 
 #root[data-playing=on] .k0yk {
@@ -26056,12 +25941,6 @@ audio {
     animation: none
 }
 
-@media print {
-    .B7p100,.B7p1b4,.B7p1i8,.B7p1xx,.B7p2ah,.B7p2gn,.B7p2n8,.B7p2rn,.B7pvl,.B7pwb {
-        display: none
-    }
-}
-
 #root[data-playing=on] .B7p100,#root[data-playing=on] .B7p1b4,#root[data-playing=on] .B7p1i8,#root[data-playing=on] .B7p1xx,#root[data-playing=on] .B7p2ah,#root[data-playing=on] .B7p2gn,#root[data-playing=on] .B7p2n8,#root[data-playing=on] .B7p2rn,#root[data-playing=on] .B7pvl,#root[data-playing=on] .B7pwb {
     display: none
 }
@@ -26084,8 +25963,6 @@ audio {
     stroke: none;
     fill: var(--loop-surface);
     mix-blend-mode: multiply;
-    @media print {
-        display:none}
 }
 
 .Cgh2b2 {
@@ -26095,9 +25972,6 @@ audio {
     &:active .Cgh1j0,&:focus .Cgh1j0,&:hover .Cgh1j0 {
         fill: var(--loop-hover-color)
     }
-
-    @media print {
-        display:none}
 }
 
 .Cgh16l {
@@ -26471,21 +26345,10 @@ audio {
     animation: particlesAnime 1s ease .15s forwards
 }
 
-.Chc1aq {
-    @media print {
-        display:none}
-}
-
 .Chc1aq,.Chca7 {
     font-weight: 600;
     fill: var(--tab-measure);
     font-size: 12px
-}
-
-@media print {
-    .Chcl9 {
-        display: none
-    }
 }
 
 @keyframes circleAnime {
@@ -26609,9 +26472,6 @@ audio {
         font-weight: var(--system-font-weight-bolder);
         fill: var(--white-color)
     }
-
-    @media print {
-        display:none}
 }
 
 .Ckduv {
@@ -26658,14 +26518,6 @@ audio {
         margin-bottom:0;margin-left:auto;margin-right:auto;margin-top:0;max-width:var(--max-tab-width)}
 }
 
-.D28180 {
-    & svg {
-        @media print {
-            display: none
-        }
-    }
-}
-
 .D281b5,.D281qz {
     left: 0;
     margin: 0 auto;
@@ -26687,12 +26539,6 @@ audio {
         display: block;
         margin: 0 auto;
         width: 100%
-    }
-}
-
-@media print {
-    .D281qz {
-        display: none
     }
 }
 
@@ -27229,8 +27075,6 @@ input,select,textarea {
     letter-spacing: normal;
     margin: 10px 10px 20px;
     text-align: center;
-    @media print {
-        display:none}
 
     & button {
         font-weight: var(--system-font-weight-normal,inherit)
